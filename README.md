@@ -1,10 +1,10 @@
-# Grindwise — light rose edition (v4)
+# Grindwise — cream and red edition (v5)
 
 Live site: https://tutoring-test.duckdns.org/
 Repository: Archie707/ai-web-test, branch main. Deployment uses the existing Coolify Static/Nginx application; the repository root is the document root. No build or npm installation is needed to serve the website.
 
 ## Visual direction
-Warm white, powder pink and raspberry red, with dark rose-brown text. Large hero, tutor and footer surfaces use a light palette. The CSS palette excludes green and its shades. The educational photograph is rendered in grayscale with a warm rose duotone. The sliding banners, motion, layout and interactions from v3 are preserved.
+Warm white, ivory and soft beige replace powder pink; existing red accents are retained. The layout, animation and functionality are unchanged. Both photo placements use a newly AI-generated young adult blonde woman with glasses, a high ponytail and a broad smile, in natural photographic colour. No green is introduced into the design palette.
 
 ## Interaction
 - Three complete hero scenes physically slide horizontally every 5.2 seconds. Previous/next, direct slide selection, keyboard arrows and touch swipes are available. Autoplay continues while the pointer is over the banner and pauses when focus enters it; users can pause or explicitly restart it.
@@ -28,3 +28,6 @@ All tutor profiles, prices and availability are illustrative. The request form i
 Julio Lopez / Unsplash: https://unsplash.com/photos/young-woman-wearing-headphones-studying-at-desk-Imz-pn2LMbg
 Source image: https://images.unsplash.com/photo-1759984782106-4b56d0aa05b8
 The image illustrates learning; it does not represent a listed tutor or a customer testimonial.
+
+## New image
+assets/student-blonde.png was generated with the built-in imagegen tool for this approved design. The original Unsplash asset is retained separately. The user approved publication of the local preview. This edition is deployed through the existing GitHub and Coolify pipeline.
