@@ -1,10 +1,10 @@
-# Grindwise — motion redesign (v3)
+# Grindwise — light rose edition (v4)
 
 Live site: https://tutoring-test.duckdns.org/
 Repository: Archie707/ai-web-test, branch main. Deployment uses the existing Coolify Static/Nginx application; the repository root is the document root. No build or npm installation is needed to serve the website.
 
 ## Visual direction
-Deep navy, violet, lavender, white and coral. The CSS palette excludes green and its shades. The educational photograph is rendered in grayscale with a purple duotone.
+Warm white, powder pink and raspberry red, with dark rose-brown text. Large hero, tutor and footer surfaces use a light palette. The CSS palette excludes green and its shades. The educational photograph is rendered in grayscale with a warm rose duotone. The sliding banners, motion, layout and interactions from v3 are preserved.
 
 ## Interaction
 - Three complete hero scenes physically slide horizontally every 5.2 seconds. Previous/next, direct slide selection, keyboard arrows and touch swipes are available. Autoplay continues while the pointer is over the banner and pauses when focus enters it; users can pause or explicitly restart it.
