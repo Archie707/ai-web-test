@@ -4,7 +4,7 @@ Live site: https://tutoring-test.duckdns.org/
 Repository: Archie707/ai-web-test, branch main. Deployment uses the existing Coolify Static/Nginx application; the repository root is the document root. No build or npm installation is needed to serve the website.
 
 ## Visual direction
-Warm white, ivory and soft beige replace powder pink; existing red accents are retained. The layout, animation and functionality are unchanged. Both photo placements use a newly AI-generated young adult blonde woman with glasses, a high ponytail and a broad smile, in natural photographic colour. No green is introduced into the design palette.
+Warm white, ivory and soft beige replace powder pink; existing red accents are retained. The layout, animation and functionality are unchanged. The upper hero uses an AI-generated tutoring session with a male student and a female tutor in a red cardigan. The lower section retains the AI-generated blonde woman with glasses and a high ponytail. Both images use natural photographic colour. No green is introduced into the design palette.
 
 ## Interaction
 - Three complete hero scenes physically slide horizontally every 5.2 seconds. Previous/next, direct slide selection, keyboard arrows and touch swipes are available. Autoplay continues while the pointer is over the banner and pauses when focus enters it; users can pause or explicitly restart it.
@@ -31,3 +31,7 @@ The image illustrates learning; it does not represent a listed tutor or a custom
 
 ## New image
 assets/student-blonde.png was generated with the built-in imagegen tool for this approved design. The original Unsplash asset is retained separately. The user approved publication of the local preview. This edition is deployed through the existing GitHub and Coolify pipeline.
+
+
+## Upper hero photograph
+assets/tutor-session.png is the final user-approved generated version with the replacement short-haired tutor. Only the upper image placement changed; the lower blonde student photograph and all CSS and JavaScript are retained.
