@@ -74,3 +74,6 @@ footer{background:#fdfcfa;color:#4e473e;border-top:1px solid #ede9e5}footer>p{co
 .photo-gradient{background:linear-gradient(0deg,#38251ba8,transparent 58%)}.how-photo:after{background:linear-gradient(0deg,#6f5b4510,transparent 55%)}
 .photo-caption{color:#fff}.photo-caption b{color:#fff6e9}
 .photo-label{background:#fffaf1de;color:#705c4b;border-color:#fff8}.label-dot{background:#c73560}
+
+/* Phone-specific controls are styled by the mobile-only stylesheet. */
+.mobile-nav,.mobile-calculator-toggle,.mobile-banner-caption{display:none}

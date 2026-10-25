@@ -35,3 +35,9 @@ assets/student-blonde.png was generated with the built-in imagegen tool for this
 
 ## Upper hero photograph
 assets/tutor-session.png is the final user-approved generated version with the replacement short-haired tutor. Only the upper image placement changed; the lower blonde student photograph and all CSS and JavaScript are retained.
+
+
+## Dedicated mobile layout
+mobile.css is loaded for screens up to 760px and short touch-screen landscape layouts. Desktop styles are preserved. On phones the hero uses shorter copy and a compact photo, subject areas use two-column tiles, and a fixed bottom navigation links to Subjects, Tutors, How it works and Request. Touch controls are at least 44px high. Slide autoplay starts paused on phones and can be explicitly enabled; swipe and previous/next controls remain available. The earnings calculator is an optional disclosure on phones and stays visible on desktop. The quick navigation is hidden while text fields are being edited.
+
+At a 390x844 viewport the default page height decreased from 8184 to 5118px and the hero from 1090 to 570px. Automated Edge browser checks cover 320, 360, 375, 390, 430, 600 and 760px portrait views and 844x390 touch-screen landscape. All three hero scenes are checked for text/image overlap. The 1440px desktop screenshot matched the pre-change screenshot exactly.
