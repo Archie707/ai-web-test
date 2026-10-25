@@ -16,7 +16,7 @@ Deep navy, violet, lavender, white and coral. The CSS palette excludes green and
 - Reduced-motion settings disable decorative animation and automatic slide rotation by default. Inactive hero scenes are inert and hidden from assistive technology. Content remains available without scroll animation support.
 
 ## Files
-index.html, styles.css, app.js and assets/student.jpg. Google Fonts load optionally; system fonts provide fallbacks.
+index.html, styles.css, app.js, assets/student.jpg and assets/fonts/. DM Sans and Manrope are self-hosted WOFF2 files; their SIL Open Font Licenses are included beside them. The page makes no external font requests, and system fonts provide fallbacks.
 
 ## Verification
 Playwright with Microsoft Edge: physical track movement, autoplay with pointer over the hero, pause, reduced motion, marquee, tutor carousel, filters/search, calculator, FAQ, local demo form, mobile navigation and viewports from 320 to 1440px. No browser JavaScript errors. Mobile card content and hero text bounds are checked. CSS colors are checked for green values.
